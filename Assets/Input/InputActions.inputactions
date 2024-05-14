@@ -11,7 +11,8 @@
                     "id": "8416732c-a7ff-4196-909b-b1abfdbddf63",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Submit",
@@ -19,7 +20,8 @@
                     "id": "e785fa08-a67a-4b29-9f47-a8e79f7c0d2e",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Cancel",
@@ -27,7 +29,8 @@
                     "id": "b4871a8a-eedf-4586-98fd-f8614617bf13",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Point",
@@ -35,7 +38,8 @@
                     "id": "9e31688b-e4a8-4db4-b457-77adeada438f",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Click",
@@ -43,7 +47,8 @@
                     "id": "78b33055-9151-428e-8159-03959c8ad0db",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "ScrollWheel",
@@ -51,7 +56,8 @@
                     "id": "b007f61f-b163-439c-8ecb-f728a9a911f4",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "MiddleClick",
@@ -59,7 +65,8 @@
                     "id": "e0310b7e-52cc-4962-903a-585951fd6a53",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "RightClick",
@@ -67,7 +74,17 @@
                     "id": "0ff944f5-18d3-49f6-ae39-9ca4e596c0b6",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "ddf1c62b-a1f6-4863-a35b-b6623c171ebc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -202,6 +219,17 @@
                     "action": "RightClick",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb230ea7-9e61-4f72-a9bd-d844e6ebf753",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -215,7 +243,8 @@
                     "id": "fb8817b8-1651-48ec-938c-37c3914eeaad",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "moveY",
@@ -223,7 +252,8 @@
                     "id": "95fc03d2-9fbd-4e99-a626-6ab4806b31c9",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "moveZ",
@@ -231,7 +261,8 @@
                     "id": "bbdece2f-00ef-4dd0-9382-4585c85da4ce",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "rotateX",
@@ -239,7 +270,8 @@
                     "id": "ee30b0e0-39a1-48cc-8601-5681c80d2dc5",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "rotateY",
@@ -247,7 +279,8 @@
                     "id": "b7f5fcce-0b97-4100-88be-cf81b08a7b9f",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
