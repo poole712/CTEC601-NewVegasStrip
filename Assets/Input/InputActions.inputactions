@@ -76,15 +76,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Sprint",
-                    "type": "Button",
-                    "id": "ddf1c62b-a1f6-4863-a35b-b6623c171ebc",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -219,17 +210,6 @@
                     "action": "RightClick",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cb230ea7-9e61-4f72-a9bd-d844e6ebf753",
-                    "path": "<Keyboard>/shift",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Sprint",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },
@@ -277,6 +257,42 @@
                     "name": "rotateY",
                     "type": "Value",
                     "id": "b7f5fcce-0b97-4100-88be-cf81b08a7b9f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "sprint",
+                    "type": "Button",
+                    "id": "c4c8fe21-63de-44f4-97dc-6d0505780702",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "jump",
+                    "type": "Button",
+                    "id": "04b850be-b68b-4e2a-a16d-bd23b1bba8dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "mouseLookX",
+                    "type": "Value",
+                    "id": "26d76c32-5b3d-4674-8133-7865597c4f45",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "mouseLookY",
+                    "type": "Value",
+                    "id": "cc1d2374-77d6-41c4-8221-69eedc45f4f3",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
@@ -523,6 +539,78 @@
                     "processors": "",
                     "groups": "",
                     "action": "rotateY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "41975002-2cec-414d-b005-abc2ece87258",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard + Mouse",
+                    "action": "sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3ced1d54-cbc9-4d8a-b806-930b44a51dfa",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard + Mouse",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2cf0c872-df72-4d40-9134-fab09fcf59d3",
+                    "path": "<Mouse>/delta/y",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "Keyboard + Mouse",
+                    "action": "mouseLookX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fea579fe-b550-4031-bd15-c4f0afdc6013",
+                    "path": "<Mouse>/delta/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard + Mouse",
+                    "action": "mouseLookY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Interaction",
+            "id": "23a9104d-198a-4654-b3ea-c50b401698bf",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "42c29a9a-2a22-4994-9ec3-a51c149ef6f5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ab2768dc-fc32-4eae-a83f-9c7888f6ddce",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
